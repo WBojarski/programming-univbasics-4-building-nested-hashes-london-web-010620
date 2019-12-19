@@ -19,13 +19,13 @@ def monopoly_with_second_tier
 end
 
 def monopoly_with_third_tier
- new_hash = {
+   new_hash = {
     railroads: {
       pieces: 4,
       names: {
         reading_railroad: {},
         pennsylvania_railroad: {},
-        rail3: 0,
+        b_and_o_railroad: {},
         rail4: 0
       },
       rent_in_dollars: {
@@ -38,6 +38,7 @@ def monopoly_with_third_tier
 
     }
   }
+
 
 end
 
