@@ -17,11 +17,18 @@ def monopoly_with_second_tier
 
 
 end
+
 def monopoly_with_third_tier
     new_hash = {
     railroads: {
       pieces: 4,
-      rent_in_dollars: []
+      rent_in_dollars: {
+        key1:
+        key2:
+        key3:
+        key4:
+
+      }
     }
   }
 
