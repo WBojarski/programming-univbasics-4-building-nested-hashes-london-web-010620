@@ -29,7 +29,7 @@ def monopoly_with_third_tier
         rail4: 0
       },
       rent_in_dollars: {
-        one_piece_owned: 0,
+        one_piece_owned: 25,
         key2: 0,
         key3: 0,
         key4: 0
@@ -38,8 +38,6 @@ def monopoly_with_third_tier
 
     }
   }
-
-
 
 
 end
