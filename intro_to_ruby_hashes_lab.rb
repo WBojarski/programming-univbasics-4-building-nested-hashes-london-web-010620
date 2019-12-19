@@ -42,12 +42,12 @@ end
 
 
 def monopoly_with_fourth_tier
-  new_hash = {
+    new_hash = {
     railroads: {
       pieces: 4,
       names: {
         reading_railroad: {"mortgage_value" => "$100"},
-        pennsylvania_railroad: {},
+        pennsylvania_railroad: {"mortgage_value" => "$200"},
         b_and_o_railroad: {},
         shortline_railroad: {}
       },
